@@ -23,9 +23,9 @@ $(document).on("click", ".close", function(){
     var thisDelete = $(this)
 
     thisDelete.parent().addClass("slide_out");
-    
+
     setTimeout(function () {
         thisDelete.parent().remove();
-    }, 1000);
+    }, 600);
 
 });
