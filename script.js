@@ -19,7 +19,13 @@ input.keydown(function(e){
 });
 //rimuovo il div anche se è generato
 $(document).on("click", ".close", function(){
+    
+    var thisDelete = $(this)
 
-    $(this).parent().remove();
+    thisDelete.parent().addClass("slide_out");
+    
+    setTimeout(function () {
+        thisDelete.parent().remove();
+    }, 1000);
 
 });

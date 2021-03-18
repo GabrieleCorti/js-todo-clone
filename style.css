@@ -104,3 +104,14 @@ li:not(:first-child){
     animation-duration: 0.4s;
     animation-timing-function: ease-in;
 }
+
+@keyframes moveout {
+    from {transform: translateX(-0px);}
+    to {transform: translateX(-650px);}
+}
+
+.slide_out {
+    animation-name: moveout;
+    animation-duration: 1.1s;
+    animation-timing-function: ease-in;
+}
