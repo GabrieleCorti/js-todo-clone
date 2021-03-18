@@ -52,8 +52,16 @@ h1 {
 
 .add input {
     margin-bottom: 8px;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    background-color: antiquewhite;
 }
 
+input:focus {
+    outline: none;
+}
 .todo_wrap {
     padding: 20px;
     min-width: 75%;
@@ -115,3 +123,4 @@ li:not(:first-child){
     animation-duration: 1.1s;
     animation-timing-function: ease-in;
 }
+
